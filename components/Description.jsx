@@ -6,7 +6,7 @@ import { Typewriter } from 'react-simple-typewriter';
 const Description = () => {
   return (
     <div className="container mx-auto max-w-4xl px-4 py-12">
-      <h1 className="text-5xl font-extrabold mb-8 text-indigo-900 text-center tracking-tight">
+      <h1 className="text-4xl font-extrabold mb-8 text-indigo-900 text-center tracking-tight">
         RAJTEX TRANSFORMERS & ELECTRICALS
       </h1>
       

@@ -10,7 +10,7 @@ export default function Home() {
     <div className="m-4">
       <Carousel/>
       <Certificates/>
-      <div className="grid grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-8 p-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-8 p-4">
       <Description/>
       <Transformer/>
       </div>
