@@ -14,7 +14,7 @@ const Description = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         {/* Left Column - Text */}
         <div className="w-full bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-2xl shadow-xl p-8">
-          <p className="text-2xl leading-relaxed text-gray-800 mb-6  text-left lg:text-justify">
+          <p className="text-2xl leading-relaxed text-gray-800 mb-6  text-left lg:text-justify font-medium">
             <Typewriter
               words={[
                 'Rajtex Transformers and Electricals, established in 1999, is a leading manufacturer of high-quality transformers and electrical equipment. The company is ISO, BIS, and BEE certified, ensuring compliance with international standards for safety, performance, and energy efficiency. With a strong focus on innovation and reliability, Rajtex Transformers caters to a wide range of industries, providing tailor-made solutions for power distribution, transmission, and energy management. Their commitment to excellence, advanced manufacturing processes, and customer-centric approach has earned them a trusted reputation in the electrical sector.',

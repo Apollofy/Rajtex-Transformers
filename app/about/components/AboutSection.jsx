@@ -49,7 +49,7 @@ export default function AboutSection() {
 
           {/* Right Column - Image and Rating */}
           <div className="relative">
-            <div className="absolute -top-4 right-4 z-10">
+            {/* <div className="absolute -top-4 right-4 z-10">
               <div className="p-4 bg-blue-900 text-white rounded-lg shadow-lg">
                 <div className="text-center">
                   <div className="text-lg font-bold">Excellent</div>
@@ -59,11 +59,11 @@ export default function AboutSection() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             
-            <div className="relative h-full min-h-[400px] rounded-lg overflow-hidden">
+            <div className="relative h-full min-h-[400px] rounded-lg overflow-hidden shadow-md">
               <img
-                src="/image3.jpg"
+                src="/image5.jpg"
                 alt="Industrial Transformer"
                 className="object-cover w-full h-full"
               />
