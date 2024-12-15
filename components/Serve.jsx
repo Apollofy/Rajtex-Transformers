@@ -1,7 +1,7 @@
 "use client"
 import React, { useRef } from 'react'
 import Link from 'next/link'
-import { Zap, Building2, Factory, Hotel, Train, Radio } from 'lucide-react'
+import { Zap, Building2, Factory, Hotel, Train, Pickaxe } from 'lucide-react'
 import { motion, useInView } from 'framer-motion'
 
 const ServiceCard = ({ icon: Icon, title, description, index }) => {
@@ -60,9 +60,9 @@ const Serve = () => {
       description: "Rail travel has been well-matched to a world that is becoming highly urbanised."
     },
     {
-      icon: Radio,
-      title: "Telecom Towers",
-      description: "The telecom towers are inherent with giant machinery and equipment and therefore"
+      icon: Pickaxe,
+      title: "Mining Industry",
+      description: "Transformers are used in the mining industry to supply power to the equipment used in the mining process."
     }
   ]
 

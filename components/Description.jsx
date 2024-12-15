@@ -11,17 +11,17 @@ const Description = () => {
       </h1>
       
       <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-2xl shadow-xl p-8 mb-12">
-        <p className="text-2xl leading-relaxed text-gray-800 mb-6">
+        <p className="text-2xl leading-relaxed text-gray-800 mb-6 text-justify">
           <Typewriter
             words={[
-              'Rajtex Transformers & Electricals was established in the year 1999. We are able to efficiently design high technology products that are appreciated for optimum performance and durability. In our manufacturing philosophy, quality is a way of life. Quality assurance starts from the selection of the most suitable raw materials. We also conduct routine tests at every level of production so that errors can be detected right at the apex of manufacturing procedures.',
+              'Rajtex Transformers and Electricals, established in 1999, is a leading manufacturer of high-quality transformers and electrical equipment. The company is ISO, BIS, and BEE certified, ensuring compliance with international standards for safety, performance, and energy efficiency. With a strong focus on innovation and reliability, Rajtex Transformers caters to a wide range of industries, providing tailor-made solutions for power distribution, transmission, and energy management. Their commitment to excellence, advanced manufacturing processes, and customer-centric approach has earned them a trusted reputation in the electrical sector.',
             ]}
             typeSpeed={2}
           />
         </p>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
         <div className="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition-all duration-300">
           <div className="text-4xl font-bold text-blue-600 mb-2">
             <CountUp end={91} duration={3} separator="," />K+
@@ -49,7 +49,7 @@ const Description = () => {
           </div>
           <p className="text-gray-700 font-medium">Client Ratings</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -4,9 +4,9 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 
 const images = [
-  '/c1.jpg',
-  '/c2.jpg',
-  '/c3.jpg'
+  '/1.png',
+  '/2.png',
+  '/3.png',
 ]
 
 const Carousel = () => {
@@ -21,7 +21,7 @@ const Carousel = () => {
   }, [])
 
   return (
-    <div className="relative w-full mx-auto h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] overflow-hidden rounded-lg shadow-lg">
+    <div className="relative w-full mx-auto h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[465px] overflow-hidden rounded-lg">
       {images.map((src, index) => (
         <div
           key={index}
@@ -34,7 +34,7 @@ const Carousel = () => {
             src={src}
             alt={`Carousel image ${index + 1}`}
             fill
-            style={{ objectFit: 'cover' }}
+            style={{ objectFit: 'contain' }}
             priority={index === 0}
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 80vw, (max-width: 1024px) 70vw, 60vw"
           />

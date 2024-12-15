@@ -11,7 +11,7 @@ const Transformer = () => {
         transition={{ type: "ease", duration:0.5 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.5 }}
-        className="w-[75%] mx-auto"
+        className="w-full mx-auto"
       >
         <Image
           src="/transformer.jpg" 

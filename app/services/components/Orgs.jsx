@@ -3,14 +3,16 @@ import { motion } from "framer-motion";
 
 const Orgs = () => {
   const cards = [
-    { id: 1, image: "/accufirm.png", alt: "Accufirm" },
-    { id: 2, image: "/bloomly.png", alt: "Bloomly" },
-    { id: 3, image: "/brighto.png", alt: "Brighto" },
-    { id: 4, image: "/digancy.png", alt: "Digancy" },
-    { id: 5, image: "/fincco.png", alt: "Fincco" },
-    { id: 6, image: "/keygenie.png", alt: "Keygenie" },
-    { id: 7, image: "/mindwell.png", alt: "Mindwell" },
-    { id: 8, image: "/skillspace.png", alt: "Skillspace" },
+    { id: 1, image: "/jvvnl.jpg", alt: "jvvl" },
+    { id: 2, image: "/jdvvnl.png", alt: "jdvvnl" },
+    { id: 3, image: "/avvnl.jpg", alt: "avvnl" },
+    { id: 4, image: "/hcl.jpg", alt: "hcl" },
+    { id: 5, image: "/gail.png", alt: "gail" },
+    { id: 6, image: "/ignp.png", alt: "ignp" },
+    { id: 7, image: "/inr.png", alt: "inr" },
+    { id: 8, image: "/bits.jpg", alt: "bits" },
+    { id: 9, image: "/phed.jpg", alt: "phed" },
+    { id: 10, image: "/gci.jpg", alt: "gci" },
   ];
 
   const sentence = "Trusted by 25,000+ world-class brands and organizations of all sizes";

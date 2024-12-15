@@ -34,7 +34,7 @@ const Navbar = () => {
               className="object-contain rounded-full"
             />
             <p className="ml-2 font-bold text-lg sm:text-xl md:text-2xl hidden sm:block">
-              Rajtex Transformers
+              Rajtex Transformers & Electricals
             </p>
           </div>
 

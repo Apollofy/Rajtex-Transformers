@@ -3,6 +3,9 @@ import { motion } from "framer-motion";
 import { FaMapMarkerAlt, FaEnvelope, FaPhone } from "react-icons/fa";
 
 const GetInTouch = () => {
+  const handleClick = () => {
+    window.open("https://maps.app.goo.gl/JroYyffDaTcniv2R9", "_blank");
+  }
   return (
     <motion.div
       initial={{ opacity: 0, x: -100 }} 
@@ -17,7 +20,7 @@ const GetInTouch = () => {
       <div className="space-y-6">
         
         <div className="flex items-center space-x-4">
-          <FaMapMarkerAlt className="text-blue-500 text-2xl" />
+          <FaMapMarkerAlt onClick= {handleClick} className="text-blue-500 text-2xl cursor-pointer hover:scale-110" />
           <div>
             <h3 className="text-lg font-semibold">Our Office</h3>
             <p className="text-gray-600 text-md">Surajgarh Road, Chirawa, Jhunjhunu, Rajasthan - 333026. (India)</p>

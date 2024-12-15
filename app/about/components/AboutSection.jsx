@@ -39,12 +39,12 @@ export default function AboutSection() {
             </div>
 
             {/* Stats Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+            {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
               <StatCard icon={<CheckCircle className="h-6 w-6" />} value="91K+" label="Project Done" />
               <StatCard icon={<Users className="h-6 w-6" />} value="84K+" label="Happy Clients" />
               <StatCard icon={<Building className="h-6 w-6" />} value="42+" label="Company Support" />
               <StatCard icon={<Star className="h-6 w-6" />} value="4.7" label="Client Reviews" />
-            </div>
+            </div> */}
           </div>
 
           {/* Right Column - Image and Rating */}

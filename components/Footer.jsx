@@ -22,7 +22,7 @@ const Footer = () => {
             <code>Rajtex Transformers & Electricals was established in the year 1999.</code>
           </p>
          
-          <div className="flex space-x-4 mt-4">
+          {/* <div className="flex space-x-4 mt-4">
             <a
               href="https://facebook.com"
               target="_blank"
@@ -55,7 +55,7 @@ const Footer = () => {
             >
               <FaYoutube />
             </a>
-          </div>
+          </div> */}
         </div>
 
         

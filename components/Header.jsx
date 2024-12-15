@@ -38,10 +38,10 @@ const Header = () => {
       </div>
       
       {/* Vertical Divider */}
-      <div className="hidden md:block mx-4 h-6 border-l border-gray-400"></div>
+      {/* <div className="hidden md:block mx-4 h-6 border-l border-gray-400"></div> */}
 
       {/* Social Media Icons */}
-      <div className="flex items-center space-x-2 md:space-x-4">
+      {/* <div className="flex items-center space-x-2 md:space-x-4">
         {[
           { href: "https://facebook.com", icon: <FaFacebookF />, label: "Facebook" },
           { href: "https://instagram.com", icon: <FaInstagram />, label: "Instagram" },
@@ -59,7 +59,7 @@ const Header = () => {
             {item.icon}
           </a>
         ))}
-      </div>
+      </div> */}
     </header>
   );
 };
