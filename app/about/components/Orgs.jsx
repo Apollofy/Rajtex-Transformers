@@ -1,5 +1,7 @@
+
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Orgs = () => {
   const cards = [
@@ -51,7 +53,6 @@ const Orgs = () => {
         ))}
       </motion.h1>
 
-      
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -62,15 +63,19 @@ const Orgs = () => {
         {cards.map((card) => (
           <motion.div
             key={card.id}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="relative bg-white shadow-lg rounded-lg p-4 flex items-center justify-center hover:shadow-xl transition-all"
+            className="relative bg-white shadow-lg rounded-lg p-6 flex items-center justify-center hover:shadow-xl transition-all h-40"
           >
-            <img
-              src={card.image}
-              alt={card.alt}
-              className="h-16 w-40 object-contain"
-            />
+            <div className="relative w-full h-full">
+              <Image
+                src={card.image}
+                alt={card.alt}
+                layout="fill"
+                objectFit="contain"
+                className="p-2"
+              />
+            </div>
           </motion.div>
         ))}
       </motion.div>
@@ -79,3 +84,4 @@ const Orgs = () => {
 };
 
 export default Orgs;
+
